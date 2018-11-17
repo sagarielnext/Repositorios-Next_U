@@ -1,0 +1,8 @@
+.gastronomia-body {
+    background-image:url(../img/fondo.jpg);
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    }

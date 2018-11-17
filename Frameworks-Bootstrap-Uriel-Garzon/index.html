@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Blog de Musica - Bootstrap</title>
+</head>
+<body style="background: brown">
+    <header class="container-fluid col-xs-9 col-sm-9 col-md-9 col-lg-9">
+        <div class="row" style="background-color:white">
+            <div class="col-md-3" style="padding:8px"> 
+                <img class="img-thumbnail" src="img/img-1.jpg">
+            </div> 
+            <div class="col-md-4 ml-auto" style="background-color:white"> 
+                <div class="pull-left float-right" style="padding-top:4em">
+                    <nav class="img-circle Collapse navbar">
+                        <a href="#"><img class="Collapse img-thumbnail" src="img/facebook.png"></a>
+                        <a href="#"><img class="Collapse img-thumbnail" src="img/gorjeo.png"></a>
+                        <a href="#"><img class="Collapse img-thumbnail" src="img/skype.png"></a>
+                        <a href="#"><img class="Collapse img-thumbnail" src="img/youtube.png"></a>
+                        <a href="#"><img class="Collapse img-thumbnail" src="img/whatsapp.png"></a>
+                    </nav>
+                </div>  
+            </div>
+        </div>  
+    </header>
+
+    <div class="container col-xs-9 col-sm-9 col-md-9 col-lg-9  mb-2 rounded-bottom" style="background-color:lightsalmon">
+  
+        <nav class="nav flex-pills flex-column flex-sm-row navbar">
+            <a class="text-sm-center nav-link disabled" href="#">Inicio</a>
+            <a class="text-sm-center nav-link disabled" href="#">Artista</a>
+            <a class="text-sm-center nav-link disabled "href="#">Grupos</a>
+            <a class="text-sm-center nav-link disabled" href="#">Top10</a>
+            <a class="text-sm-center nav-link disabled" href="#">Letras</a>
+            <a class="text-sm-center nav-link disabled" href="#">Acordes</a>
+        </nav>
+    </div>
+
+    <Div class="container-fluid col-xs-9 col-sm-9 col-md-9 col-lg-9">
+        <div class="row">
+            <div class="col-md-8 col-md-push-4" style="background-color:white">
+                <article >
+                    <div style="padding:15px">
+                        <img class="rounded img-fluid img-thumbnail float-right" src="img/img-dercha.jpg" alt="Diomedes">
+                        <h3 class="text-center">BIOGRAFÍA DE DIOMEDES DÍAZ</h3>
+                        <p class="text-muted">
+                             Diomedes Díaz Maestre, fue un cantante y compositor colombiano de música vallenata, 
+                             conocido como el Cacique de la Junta. Reconocido por ser el intérprete vallenato 
+                             que más vendió discos en la historia de ese género musical. Nació el 26 de mayo 
+                             de 1957 en San Juan del Cesar, La Guajira, y es hijo de Elvira Maestre y Rafael María Díaz.<br>
+                             Desde muy pequeño se vio interesado por la música, inspirado por su madre y su tío. 
+                             Hizo sus estudios de primaria en el Liceo Colombia en Villanueva. 
+                             Durante su paso por la escuela, un compañero suyo accidentalmente le pegó con 
+                             una piedra en el ojo, dejándolo tuerto. Tiempo después, se trasladó a Valledupar, 
+                             donde realizó sus estudios de bachillerato en el Instituto Técnico Industrial Pedro 
+                             Castro Monsalvo.
+                        </p>
+                        <div class="row">
+                            <nav class="col-sm-1 ">
+                                <img src="img/avatar.png">
+                            </nav>
+                            <nav class="col-sm-11">
+                                <textarea class="rounded form-control" rows="1" placeholder="Comentarios...."></textarea>
+                            </nav>     
+                        </div>
+                    </div>
+                </article>
+
+                <article >
+                    <div style="padding:15px">
+                        <img class="rounded img-fluid img-thumbnail float-left"  src="img/img-izquierda.jpg" alt="Shakira">
+                        <h3 class="text-center">BIOGRAFÍA DE SHAKIRA</h3>
+                        <p class="text-left text-muted">
+                            Shakira Isabel Mebarak Ripoll nació en Barranquilla, 2 de febrero de 1977, 
+                            es hija de Nidia del Carmen Ripoll Torrado (barranquillera de ascendencia catalana e italiana) 
+                            y William Mebarak de ascendencia libanesa. A la edad de ocho años comenzó a escribir y componer 
+                            canciones, algunas con fondo autobiográfico, como la dedicada a su hermano muerto en 
+                            accidente de tránsito o la dedicada a su padre (Tus gafas oscuras). 
+                            Participó por primera vez en el concurso televisivo Buscando Artista Infantil en 
+                            el año 1988 (de la cadena regional de la costa colombiana Telecaribe), concurso que ganó 
+                            durante tres años consecutivos. 
+                            A los diez años, Shakira fue rechazada para el coro de su escuela por su pronunciado 
+                            "vibrato" que la hacía resaltar de sus compañeras.     
+                        </p>
+                        <div class="row">
+                            <nav class="col-sm-1">
+                                <img src="img/avatar.png">
+                            </nav>
+                            <nav class="col-sm-11">
+                                <textarea class="rounded form-control" rows="1" placeholder="Comentarios...."></textarea>
+                            </nav>     
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+
+            <div class="col-md-4 d-none d-md-block" style="background-color:white">
+                
+                <nav class="navbar navbar-light">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="img/lupa.png"></button>
+                    </form>
+                </nav>
+            
+
+                <div class="border" style="padding:8px">
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        Rodolfo Aicardi</button>
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        Shakira</button>
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        Sebastian Yatra</button>
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        Diomedes Diaz</button>
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        J Balvin</button>
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        Peter Manjarres</button>
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        Carlos Vives</button>
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        Andres Cepeda</button>
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        Silvestre Dangond</button>
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        Nelson Velasquez</button>
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        Jorge Celedon</button>
+                    <button type="button" class="container text-left btn btn-outline-secondary">
+                        Jorge Velosa</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
