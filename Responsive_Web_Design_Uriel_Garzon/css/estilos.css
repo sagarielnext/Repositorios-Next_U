@@ -1,0 +1,227 @@
+body{
+	background: #02010a;
+	margin-right: 1%;
+	font-size: 18px;
+}
+#contenido{
+	width: 900px;
+	margin: 0 auto;
+}
+#columna1{
+	padding: 0.1px; 
+}
+header{
+	margin-top: 150% -5%;
+    padding: 1rem; 
+    box-sizing:border-box; 
+    border-radius: 10px 10px 0px 0px; /*borde redondeados 10px*/
+    background-color: #5b7989;
+}
+
+
+header{/*movimiento de arriba hacia bajo*/
+	animation: miSlideIn 1s;
+}
+@keyframes miSlideIn{
+
+0%{
+	margin-top: 150%;
+}
+60%{
+	margin-top: -5%;
+}
+100%{
+	margin-top: 0;
+}
+}
+
+
+@font-face {/*tipo de finte DancingScript*/
+	font-family: FuenteLato;
+	src: url(../fuentes/DancingScript-Bold.ttf);
+}
+.titulo{
+	font-family: FuenteLato;
+}  
+.titulo h1{
+	color: beige;
+	text-shadow: 2px 2px 2px #02010a;/*sombra de la letra*/
+}
+figcaption{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 1.3em;
+	padding: 0.5em;
+}
+h1 span{
+	color: rgb(241, 241, 70);
+	font-size: 1em;/*tamaño de la fuente*/
+	margin-right: 5px;
+}
+li span{
+	color:darkblue;
+	font-size: 0.9em;/*tamaño de la fuente*/
+	margin-right: 7px;
+}
+h1 a{
+	margin-right: 13px;
+	text-decoration: none; color: #FFFFFF;    /* Color paso raton */ 
+}
+nav a:hover{ 
+	text-decoration: overline;
+	color: rgb(92, 13, 238);    /* Color paso raton */ 
+} 
+
+ul{
+	list-style-type: none; /* Elimina viñetas, sangrias, etc */ 
+	font-size: 1em;
+}
+ul li{
+	font-size: 1.2em;/*tamaño de la fuente*/
+	color: #02010a;
+}
+
+.menu div, .piepagina div{
+	width: 100%;
+}
+figure img{
+  width: 100%;
+}
+
+#imag-1 img{
+	text-align: center;
+	margin: 2px;
+	box-shadow: 2px 2px 2px #02010a;
+	transition: all 1s;
+}
+#imag-1 img:hover{
+	-ms-transform: rotate(10deg); /* IE 9 */
+	-webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+	transform: rotate(10deg);
+	transition: all 1s;
+}
+#imag-2 img{
+	text-align: center;
+	margin: 2px;
+	box-shadow: 2px 2px 2px #02010a;
+	transition: all 1s;	
+}
+#imag-2 img:hover{
+	-ms-transform: translate(20px, 5px); /* IE 9 */
+	-webkit-transform: translate(20px, 5px); /* Chrome, Safari, Opera */
+	transform: translate(20px, 5px);
+	transition: all 1s;
+}
+/*inicio galeria para páginas paisajes.html"*/
+img{
+	border: 2px solid white;
+}
+#efecto4 img {/*efecto blur de 10px.*/
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: blur(10px);
+}
+#efecto5, #efecto7, #efecto9 img {/*2,4,6 escala de grises al 100%. */
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+#efecto6 img{/*imagen 3, efecto sepia de 90%. */
+	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+	filter: sepia(90%);
+}
+/*inicio galeria para retratos paisajes.html"*/
+#efectos1 img {/*efecto blur de 10px.*/
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: blur(10px);
+}
+#efectos2, #efectos4, #efectos6 img {/*2,4,6 escala de grises al 100%. */
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+#efectos3, #efectos5 img{/*imagen 3, efecto sepia de 90%. */
+	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+	filter: sepia(90%);
+}
+
+/*------------entrada pagina Paisajes----------------------------------"*/
+.galeriaImagenes div {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0;
+}
+.galeriaImagenes div div {
+	margin: 2px;
+}
+.galeriaImagenes div div figure img {
+	width: 100%;
+}	
+/*----------------------------------------------------------------------*/
+
+#columna1{
+	background-color: #82c3a6;
+	width: 100%;
+	}
+#columna2 {
+	background-color: #d5c75f;
+	width: 100%;
+}
+footer{
+	background-color: #C6d5c5;
+	width: 100%;
+	border-radius: 0px 0px 10px 10px; /*borde redondeados 10px*/
+}
+.menu, .paisaje, .piepagina {
+	display:flex;
+	width: 100%;		
+}
+
+nav h1{	text-align:right;}
+
+@media screen and (max-width: 900px){
+	#contenido {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.menu div{
+		width: 100%;
+		text-align:center;
+		font-size: 2em;/*tamaño de la fuente*/
+	}
+	nav h1{	text-align: center;}
+	.menu, .paisaje {
+		display:flex;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 900px){
+	#contenido {/* ocupa el 100% para movil*/
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna1 {
+		width: 100%;
+	}
+	#columna2 {
+		width: 100%;
+	}
+	header {
+		width:100%;
+	}
+	.menu div{
+		width: 100%;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	footer{
+		width: 100%;
+	}
+	figure img{
+		width: 100%;
+	}
+	.menu, .paisaje, .piepagina, .galeriaImagenes div{
+		display:flex;
+		flex-direction: column;
+		width: 100%;
+	}
+}
